@@ -1,0 +1,130 @@
+.HomeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.storiesContainer {
+  width: 75%;
+  padding-left: 0;
+  list-style: none;
+  padding-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .storiesContainer {
+    padding-top: 0;
+    width: 80%;
+  }
+}
+.post-item {
+  width: 80%;
+}
+@media screen and (max-width: 768px) {
+  .post-item {
+    width: 100%;
+  }
+}
+.slick-prev:before {
+  color: #c9c9c9;
+  background-color: #ffffff;
+}
+.slick-next:before {
+  color: #334155;
+  background-color: #ffffff;
+}
+.PostItemsContainer {
+  padding-left: 0;
+  list-style: none;
+  width: 100%;
+  max-width: 1100px;
+  margin-top: 44px;
+}
+@media screen and (max-width: 768px) {
+  .PostItemsContainer {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+}
+.storiesFailureView {
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.retryButtonStories {
+  background-color: #4094ef;
+  border: none;
+  border-radius: 8px;
+  color: snow;
+  padding: 6px 18px 6px 18px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.goAlertIcon {
+  color: #4094ef;
+  font-size: 24px;
+}
+.errorParaStories {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #262626;
+  text-align: left;
+}
+.loader-container-posts {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.postsFailureViewContainer {
+  width: 100%;
+  height: 90vh;
+  border-radius: 8px;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .postsFailureViewContainer {
+    height: 75vh;
+  }
+}
+.errorParaPosts {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #262626;
+}
+.retryButtonPosts {
+  background-color: #4094ef;
+  border: none;
+  border-radius: 8px;
+  color: snow;
+  padding: 8px 24px 8px 24px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.hr {
+  width: 100%;
+  border: 0.5px solid #dbdbdb;
+  margin-bottom: 0;
+}
+@media screen and (min-width: 768px) {
+  .hr {
+    display: none;
+  }
+}

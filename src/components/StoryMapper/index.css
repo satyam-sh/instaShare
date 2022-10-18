@@ -1,0 +1,21 @@
+.eachStoryItem {
+  margin-right: 40px;
+}
+@media screen and (max-width: 768px) {
+  .eachStoryItem {
+    margin-right: 20px;
+  }
+}
+.myProfileStoriesImage {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  padding: 2px;
+  border: 1.6px solid #dbdbdb;
+}
+@media screen and (max-width: 768px) {
+  .myProfileStoriesImage {
+    width: 56px;
+    height: 56px;
+  }
+}

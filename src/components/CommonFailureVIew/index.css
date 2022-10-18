@@ -1,0 +1,43 @@
+.CommonFailureViewContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.failureImage {
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .failureImage {
+    width: 90%;
+  }
+}
+.failurePara {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .failurePara {
+    font-size: 16px;
+  }
+}
+.failureTryAgainButton {
+  height: 40px;
+  font-size: 14px;
+  width: 160px;
+  left: 0px;
+  top: 0px;
+  border-radius: 12px;
+  padding: 8px 20px 8px 20px;
+  background-color: #4094ef;
+  border: none;
+  color: #f9f9f9;
+  font-family: Roboto;
+  cursor: pointer;
+}

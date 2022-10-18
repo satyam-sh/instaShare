@@ -1,0 +1,209 @@
+nav {
+  box-shadow: 0 2px 16px #e9e9e9;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 0;
+  background-color: #ffffff;
+  align-items: center;
+  width: 100%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+@media screen and (max-width: 768px) {
+  nav {
+    padding-left: 8%;
+    padding-right: 8%;
+    box-shadow: none;
+  }
+}
+.navListContainer {
+  padding-left: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logoAndWebsiteContainer {
+  display: flex;
+
+  align-items: center;
+}
+.navLogo {
+  width: 60px;
+  height: 30px;
+  margin-right: 8px;
+}
+.websiteHeader {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.searchBarContainer {
+  display: flex;
+  margin-right: 26px;
+  height: 28px;
+  border: 1px solid #dbdbdb;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 3px;
+}
+.searchBarContainerSm {
+  display: flex;
+  margin-right: 26px;
+  height: 28px;
+  border: 1px solid #dbdbdb;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 3px;
+}
+.linkAndSearchContainer {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .hamButtonMenuContainer {
+    display: none;
+  }
+  .searchBarContainerSm {
+    display: none;
+  }
+}
+.hamButton {
+  width: 24px;
+  height: 24px;
+}
+@media screen and (max-width: 768px) {
+  .linkAndSearchContainer {
+    display: none;
+  }
+}
+.searchInput {
+  outline: none;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  height: 27px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #fafafa;
+  flex-grow: 1;
+  width: 80%;
+}
+.searchButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  height: 25px;
+  width: 34px;
+  background-color: #dbdbdb;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  color: #989898;
+  cursor: pointer;
+}
+
+.homeLink {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #262626;
+  text-align: left;
+  margin-right: 20px;
+}
+
+.profileLink {
+  color: #262626;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+
+  text-align: left;
+  margin-right: 24px;
+}
+
+.logoutButton {
+  width: 86px;
+  height: 32px;
+  border-radius: 4px;
+  padding: 8px 20px 8px 20px;
+  background-color: #4094ef;
+  border: none;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  cursor: pointer;
+}
+.lnk-items {
+  text-decoration: none;
+}
+.Ham-Menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 0;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .Ham-Menu {
+    display: none;
+  }
+}
+.ham-menu-logout-button {
+  height: 32px;
+  width: 86px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+  padding: 8px 24px 8px 24px;
+  background-color: #4094ef;
+  border: none;
+  color: snow;
+}
+.closeIcon {
+  width: 18px;
+  height: 18px;
+}
+.common-link-class {
+  color: #262626;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+@media screen and (min-width: 768px) {
+  .profileLinkX {
+    display: none;
+  }
+}
+
+.thirdListItems {
+  display: flex;
+  align-items: center;
+}
+.xClass {
+  color: #4094ef;
+}

@@ -1,0 +1,37 @@
+.storyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0;
+}
+
+.storiesImage {
+  width: 68px;
+  height: 68x;
+  border-radius: 50%;
+  padding: 1px;
+  border: 2px dashed #4094dc;
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .storiesImage {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .storiesImage {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.storiesImage:hover {
+  box-shadow: 0 0 3px #4094ee;
+  width: 75px;
+  height: 75px;
+}
+.usernameOfStories {
+  font-size: 13px;
+  text-align: center;
+  color: #262626;
+}

@@ -1,0 +1,159 @@
+.MyProfileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ResponsiveContainer {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .profileSectionLarge {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+.profileImageAndDetailsContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  .profileImageAndDetailsContainer {
+    display: none;
+  }
+}
+.profileSectionMedium {
+  margin-bottom: 0;
+}
+.profileImageAndDetailsContainerSm {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .profileImageAndDetailsContainerSm {
+    display: none;
+  }
+  .profileSectionMedium {
+    display: none;
+  }
+}
+
+.myProfileImage {
+  width: 155px;
+  height: 155px;
+  margin-right: 64px;
+  margin-top: 12px;
+}
+@media screen and (max-width: 768px) {
+  .myProfileImage {
+    width: 86px;
+    height: 86px;
+    margin-right: 24px;
+  }
+}
+
+.postAndFollowerInfo {
+  display: flex;
+}
+.top-username {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 8px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #262626;
+}
+@media screen and (max-width: 768px) {
+  .top-username {
+    font-size: 17px;
+    margin-bottom: 0;
+  }
+}
+
+.commonPara {
+  margin-right: 48px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  color: #262626;
+  line-height: 10px;
+  text-align: left;
+}
+@media screen and (max-width: 768px) {
+  .commonPara {
+    margin-right: 22px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 12px;
+  }
+}
+
+.bottom-username {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+
+  text-align: left;
+}
+
+.bio-description {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.storyImagesContainer {
+  list-style: none;
+  width: 100%;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.horizontalRule {
+  border: 0.6px solid #c6c6c8;
+}
+.iconAndPost {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .iconAndPost {
+    padding-left: 8%;
+  }
+}
+
+.gridIcon {
+  margin-right: 16px;
+}
+.MyPostsItemContainer {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 0;
+  width: 100%;
+}
+
+.postsParagraph {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.loader-container-myProfile {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
